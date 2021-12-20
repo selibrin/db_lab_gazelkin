@@ -20,7 +20,7 @@ type_of_delivery_list = ['Перевозка вещей', 'Перевозка с
 lifting_capacity_list = ['1500', '2000', '3000', '5000', '7500', '10000', '15000', '20000']
 
 marque_and_model_list = []
-with open("C:/Users/selib/Desktop/db_txt/marks.txt", encoding='utf-8') as f:
+with open("C:/Users/selib/Desktop/db/db_txt/marks.txt", encoding='utf-8') as f:
     for line in f:
         try:
             marque_and_model_list.append(line.replace(';', ' ')[0:len(line) - 1])
