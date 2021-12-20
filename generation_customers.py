@@ -2,7 +2,7 @@ import psycopg2
 
 
 def fullnames():
-    f = open('C:/Users/selib/Desktop/db_txt/fullnames.txt', 'r', encoding='utf-8')
+    f = open('C:/Users/selib/Desktop/db/db_txt/fullnames.txt', 'r', encoding='utf-8')
     fullname_list = f.readlines()
     f.close()
     return fullname_list
