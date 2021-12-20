@@ -19,7 +19,7 @@ connection = psycopg2.connect(
 connection.autocommit = True
 
 region_digits_list = []
-with open("C:/Users/selib/Desktop/db_txt/region_digits.txt", encoding='utf-8') as f:
+with open("C:/Users/selib/Desktop/db/db_txt/region_digits.txt", encoding='utf-8') as f:
     for line in f:
         fileline = line.replace(',', '')
         try:
